@@ -145,21 +145,6 @@ sequenceDiagram
 
 ---
 
-## Statutory Penalty Mapping (Motor Vehicles Act)
-
-The Rule Validation Agent automatically pairs computer vision classifications with statutory provisions under the Indian Motor Vehicles Act:
-
-| Violation Category | Statutory Section | Standard Penalty | Demerit Points | Detection Criteria |
-|:---|:---|:---:|:---:|:---|
-| **Driving Without Helmet** | Section 129 / 177 | ₹1,000 | 2 | Rider head bounding box missing certified protective gear |
-| **Red Light Jumping** | Section 119 / 177 | ₹1,000 | 3 | Vehicle crossing stop line while signal lens exhibits active red hue |
-| **Triple Riding (Two-Wheelers)** | Section 128 / 177 | ₹1,000 | 2 | More than two person centroids detected on two-wheeler frame |
-| **Speed Limit Infraction** | Section 112 / 183 | ₹2,000 | 4 | Optical distance / frame delta exceeding corridor speed limit |
-| **One-Way / Wrong-Side Driving** | Section 17(1) / 177 | ₹1,000 | 3 | Direction of vehicle trajectory opposing corridor traffic vector |
-| **Driving Without Seatbelt** | Section 194B | ₹1,000 | 1 | Driver torso diagonal strap absence in cabin crop |
-| **Using Mobile Phone While Driving** | Section 184(c) | ₹5,000 | 4 | Hand-held device positioned adjacent to head / steering perimeter |
-
----
 
 ## Install
 
