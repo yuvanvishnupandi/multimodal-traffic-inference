@@ -1,498 +1,384 @@
-<div align="center">
-  <img src="frontend/src/assets/marga-rakshak3.png" alt="Marga Rakshak" width="470" style="border-radius:12px"/>
-</div>
+<h2 align="center"><b>multimodal-traffic-inference</b></h2>
 
-<br />
-
-<div align="center">
-<p>An AI-powered mobility enforcement platform with computer vision, automated evidence processing, e-challan management, analytics, and role-based administration.</p>
-<br />
-
+<h4 align="center">Distributed multi-agent visual reasoning and automated transit enforcement platform</h4>
 
 <p align="center">
-
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-
-<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
-
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-
-<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express"/>
-
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-
-<img src="https://img.shields.io/badge/Gemini_AI-8E75B2?style=for-the-badge&logo=google&logoColor=white" alt="Gemini AI"/>
-
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
-
-<img src="https://img.shields.io/badge/Mistral_AI-FF7000?style=for-the-badge&logo=mistralai&logoColor=white" alt="Mistral AI"/>
-
-<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
-
-<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
-
-<img src="https://img.shields.io/github/stars/yuvanvishnupandi/margarakshak?style=for-the-badge" alt="Stars"/>
-
-<img src="https://img.shields.io/github/forks/yuvanvishnupandi/margarakshak?style=for-the-badge" alt="Forks"/>
-
-<img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="MIT License"/>
-
-<img src="https://img.shields.io/github/last-commit/yuvanvishnupandi/margarakshak?style=for-the-badge" alt="Last Commit"/>
-
+    <a href="https://github.com/yuvanvishnupandi/multimodal-traffic-inference"><img src="https://img.shields.io/badge/GitHub-multimodal--traffic--inference-181717?logo=github&style=flat-square" alt="GitHub Repo"></a>
+    <a href="https://margarakshak-xi.vercel.app/"><img src="https://img.shields.io/badge/Live%20Demo-Vercel-success?logo=vercel&style=flat-square" alt="Live Demo"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="MIT License"></a>
+    <img src="https://img.shields.io/badge/Python-3.11+-3776AB.svg?logo=python&logoColor=white&style=flat-square" alt="Python 3.11+">
+    <img src="https://img.shields.io/badge/FastAPI-0.110+-009688.svg?logo=fastapi&logoColor=white&style=flat-square" alt="FastAPI">
+    <img src="https://img.shields.io/badge/LangGraph-Multi--Agent-FF4F00.svg?logo=langchain&logoColor=white&style=flat-square" alt="LangGraph">
+    <img src="https://img.shields.io/badge/Google-Gemini_2.5_Flash-8E75B2.svg?logo=google&logoColor=white&style=flat-square" alt="Gemini AI">
+    <img src="https://img.shields.io/badge/Node.js-18+-339933.svg?logo=nodedotjs&logoColor=white&style=flat-square" alt="Node.js">
+    <img src="https://img.shields.io/badge/Express-4.19+-000000.svg?logo=express&logoColor=white&style=flat-square" alt="Express">
+    <img src="https://img.shields.io/badge/MySQL-8.0-4479A1.svg?logo=mysql&logoColor=white&style=flat-square" alt="MySQL 8.0">
+    <img src="https://img.shields.io/badge/React-18.2-61DAFB.svg?logo=react&logoColor=black&style=flat-square" alt="React 18">
+    <img src="https://img.shields.io/badge/TailwindCSS-3.3-38BDF8.svg?logo=tailwindcss&logoColor=white&style=flat-square" alt="Tailwind CSS">
 </p>
 
-</div>
+---
+
+Implementation of a distributed multi-agent vision-language architecture for automated traffic violation detection, spatial fraud mitigation, and statutory penalty adjudication. Powered by LangGraph, Google Gemini Vision, and FastAPI, coupled with a Node.js Express backend, MySQL 8.0 relational schema, and React frontend.
+
+The platform processes crowdsourced incident evidence, triangulates spatial authenticity, performs optical recognition on vehicle license plates, identifies regulatory infractions under the Motor Vehicles Act, and provides police officers with an authoritative adjudication console for rapid 1-click verification.
 
 ---
 
-<div align="center">
+## Architecture
 
-<table>
-  <tr>
-    <td><img src="frontend/src/assets/img7.jpeg" width="400" style="border-radius:8px"/></td>
-    <td><img src="frontend/src/assets/img10.jpeg" width="400" style="border-radius:8px"/></td>
-  </tr>
-  <tr>
-    <td><img src="frontend/src/assets/img19.jpeg" width="400" style="border-radius:8px"/></td>
-    <td><img src="frontend/src/assets/img14.jpeg" width="400" style="border-radius:8px"/></td>
-  </tr>
-  <tr>
-    <td><img src="frontend/src/assets/img13.jpeg" width="400" style="border-radius:8px"/></td>
-    <td><img src="frontend/src/assets/img17.jpeg" width="400" style="border-radius:8px"/></td>
-  </tr>
-  
-</table>
-
-</div>
-
-
----
-## Key Functionalities
-<div align="center">
-<img src="frontend/src/assets/readme1.png" alt="Marga Rakshak — overview" width="100%" />
-
-</div>
-<details>
-<summary><b>See all features</b></summary>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 📸 Citizen reporting
-
-- **One-tap evidence upload** — capture and submit violation photos/videos from the citizen portal
-- **Automatic plate recognition** — OCR-based number plate extraction, no manual entry
-- **Violation detection** — Vision Agent classifies the offense straight from the image
-- **Challan payment** — pay issued challans directly through the portal
-- **Appeals** — contest a challan and track resolution status
-- **Reward points** — citizens earn points for verified, accurate submissions
-
-</td>
-<td width="50%" valign="top">
-
-#### 👮 Police dashboard
-
-- **Review queue** — every AI-processed report lands here before any challan is issued
-- **One-click approve/reject** — human-in-the-loop verification, no automated punishment
-- **Vehicle registration lookup** — cross-check vehicle details on demand
-- **Violation history** — per-vehicle record across all past reports
-- **Hotspot map** — high-risk locations surfaced from historical report density
-- **Role-based access** — JWT-secured, officer-only actions
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🧠 Multi-agent AI engine
-
-- **Vision Agent** — OCR plate extraction + violation identification
-- **Rule Validation Agent** — maps detected violations to Motor Vehicles Act provisions and calculates fines
-- **Vehicle Verification Agent** — cross-checks extracted vehicle data before report generation
-- **Hotspot Prediction Agent** — analyses historical reports to flag high-risk zones
-- **AskRakshak Assistant** — chatbot for traffic-rule and challan queries 
-
-</td>
-<td width="50%" valign="top">
-
-#### ⚙️ Platform
-
-- **REST API backend** — Express.js, modular route structure
-- **JWT authentication** — secure sessions for citizens and officers
-- **MySQL 8.0** — relational schema for reports, vehicles, users, challans
-- **Independent AI service** — FastAPI microservice, decoupled from the main API
-- **Cloud-native deploy** — Vercel (frontend) + Render (backend)
-
-</td>
-</tr>
-</table>
-
-</details>
-
-<br />
-
-## Get started
-
-```bash
-git clone https://github.com/yuvanvishnupandi/margarakshak.git
-cd margarakshak
-```
-
-Create a MySQL database named `traffic_violation_db`, import the schema from `backend/database_schema.sql`, then start the backend, AI service, and frontend (see [Local Setup](#local-setup) below) — or run `start.bat` on Windows to launch all three at once.
-
-
-<br />
-
-## 🛠️ Tech Stack
-
-<table align="center">
-<tr>
-
-<td align="center" width="180" height="180">
-<a href="https://react.dev/">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/react.svg" width="90"/><br><br>
-<b>React</b>
-</a>
-</td>
-
-<td align="center" width="180" height="180">
-<a href="https://vitejs.dev/">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/vite.svg" width="90"/><br><br>
-<b>Vite</b>
-</a>
-</td>
-
-<td align="center" width="180" height="180">
-<a href="https://nodejs.org/">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/nodedotjs.svg" width="90"/><br><br>
-<b>Node.js</b>
-</a>
-</td>
-
-<td align="center" width="180" height="180">
-<a href="https://expressjs.com/">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/express.svg" width="90"/><br><br>
-<b>Express</b>
-</a>
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center" width="180" height="180">
-<a href="https://fastapi.tiangolo.com/">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/fastapi.svg" width="90"/><br><br>
-<b>FastAPI</b>
-</a>
-</td>
-
-<td align="center" width="180" height="180">
-<a href="https://www.mysql.com/">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/mysql.svg" width="90"/><br><br>
-<b>MySQL</b>
-</a>
-</td>
-
-<td align="center" width="180" height="180">
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/javascript.svg" width="90"/><br><br>
-<b>JavaScript</b>
-</a>
-</td>
-
-<td align="center" width="180" height="180">
-<a href="https://ai.google.dev/">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/googlegemini.svg" width="90"/><br><br>
-<b>Gemini</b>
-</a>
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center" width="180" height="180">
-<a href="https://mistral.ai/">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/mistralai.svg" width="90"/><br><br>
-<b>Mistral AI</b>
-</a>
-</td>
-
-<td align="center" width="180" height="180">
-<a href="https://tailwindcss.com/">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/tailwindcss.svg" width="90"/><br><br>
-<b>Tailwind CSS</b>
-</a>
-</td>
-
-<td align="center" width="180" height="180">
-<a href="https://jwt.io/">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/jsonwebtokens.svg" width="90"/><br><br>
-<b>JWT</b>
-</a>
-</td>
-
-<td align="center" width="180" height="180">
-<a href="https://vercel.com/">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/vercel.svg" width="90"/><br><br>
-<b>Vercel</b>
-</a>
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center" width="180" height="180">
-<a href="https://render.com/">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/render.svg" width="90"/><br><br>
-<b>Render</b>
-</a>
-</td>
-
-<td align="center" width="180" height="180">
-<a href="https://git-scm.com/">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/git.svg" width="90"/><br><br>
-<b>Git</b>
-</a>
-</td>
-
-<td align="center" width="180" height="180">
-<a href="https://github.com/">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width="90"/><br><br>
-<b>GitHub</b>
-</a>
-</td>
-
-<td align="center" width="180" height="180">
-<a href="https://www.postman.com/">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/postman.svg" width="90"/><br><br>
-<b>Postman</b>
-</a>
-</td>
-
-</tr>
-</table>
-<br />
-
-<h2 id="architecture">🏛️ Overall system architecture</h2>
-
-The application follows a modular three-tier architecture consisting of the presentation layer, backend API, AI service, and database. Each component operates independently and communicates through REST APIs.
+The system decouples user interaction, core business logic, relational storage, and multi-agent artificial intelligence into modular, independently scalable tiers:
 
 ```mermaid
-graph TD
+flowchart TD
+    subgraph Client["Client Presentation Layer"]
+        C1["Citizen Reporting Portal<br/>(React 18 + Vite + Tailwind)"]
+        C2["Police Adjudication Console<br/>(React 18 + Leaflet Heatmaps)"]
+    end
 
-subgraph Client["Client Layer"]
-Citizen[Citizen Portal]
-Police[Police Dashboard]
-end
+    subgraph Gateway["Application Services Layer (Node.js)"]
+        API["Express.js REST Gateway"]
+        AUTH["JWT Authentication & RBAC Engine"]
+        QUEUE["Evidence Ingestion & Report Router"]
+    end
 
-subgraph Server["Application Layer"]
-API[Express API Server]
-AUTH[JWT Authentication]
-end
+    subgraph AgenticEngine["AI Microservice (FastAPI + LangGraph)"]
+        ORCH["StateGraph Orchestrator"]
+        AF["Geospatial Anti-Fraud Agent<br/>(EXIF vs GPS Triangulation)"]
+        VIS["Vision & OCR Triage Agent<br/>(Gemini 2.5 Flash Multimodal)"]
+        RULE["Statutory Penalty Agent<br/>(Motor Vehicles Act 1988)"]
+        HOT["Spatial Hotspot Agent<br/>(Density Clustering Engine)"]
+        CHAT["AskRakshak Assistant<br/>(Conversational Legal Copilot)"]
+    end
 
-subgraph AI["AI Service"]
-ORCH[AI Orchestrator]
-VISION[Vision Agent]
-RULE[Rule Validation]
-CHATBOT[AskRakshak Assistant]
-HOTSPOT[Hotspot Prediction]
-end
+    subgraph Storage["Data & External Services Layer"]
+        DB[("MySQL 8.0 Relational DB")]
+        NOM["Nominatim Reverse Geocoding API"]
+        GEM["Google Gemini API Cluster"]
+    end
 
-subgraph Database["Database Layer"]
-MYSQL[(MySQL Database)]
-end
+    C1 & C2 --> Gateway
+    Gateway --> AUTH
+    AUTH --> QUEUE
+    QUEUE --> DB
+    QUEUE --> ORCH
 
-Citizen --> API
-Police --> API
+    ORCH --> AF
+    AF --> NOM
+    AF --> VIS
+    VIS --> GEM
+    VIS --> RULE
+    RULE --> QUEUE
 
-API --> AUTH
-API --> MYSQL
-API --> ORCH
-
-ORCH --> VISION
-ORCH --> RULE
-ORCH --> CHATBOT
-ORCH --> HOTSPOT
-
-VISION --> GeminiAPI[Gemini API]
-CHATBOT --> OpenAIAPI[OpenAI API]
+    C1 --> CHAT
+    CHAT --> GEM
+    QUEUE --> HOT
 ```
 
-<br />
+---
 
-## Traffic violation processing workflow
+## Multi-Agent Execution Graph
 
-The following sequence diagram illustrates how a citizen report is processed from submission to challan generation.
+The core inference engine executes as a stateful, cyclic directed graph using LangGraph. Each specialized agent inspects, modifies, and enriches the shared `AgentState` before routing to subsequent nodes:
+
+```mermaid
+flowchart TD
+    START([Incident Evidence Submitted]) --> AF["Geospatial Anti-Fraud & Routing Node<br/>• IP Geolocation vs Device EXIF GPS<br/>• Reverse Geocoding via Nominatim<br/>• Jurisdiction ID Assignment"]
+
+    AF --> COND1{"Anti-Fraud Check"}
+
+    COND1 -- "GPS Mismatch / Spoof Detected" --> FRAUD["Flag Report as Fraudulent<br/>• Record Spoof Reason<br/>• Terminate Pipeline"]
+    COND1 -- "Location Authentic" --> VIS["Single-Plate OCR & Vision Triage Node<br/>• Multimodal Reasoning via Gemini 2.5 Flash<br/>• Offending Vehicle Classification<br/>• License Plate String Extraction<br/>• Confidence Metric Computation"]
+
+    VIS --> COND2{"OCR & Violation Check"}
+
+    COND2 -- "No Plate or Obscured" --> REJECT["Mark Inconclusive<br/>• Route to Manual Investigation"]
+    COND2 -- "Valid Plate & Infraction" --> PEN["Entity Verification & Penalty Calculation Node<br/>• Motor Vehicles Act Violation Mapping<br/>• Statutory Penalty & Fine Calculation<br/>• Challan Payload Generation"]
+
+    PEN --> END([Ready for Authoritative Police Review])
+    FRAUD --> END
+    REJECT --> END
+```
+
+### Agent Specialization Matrix
+
+| Agent | Technology | Primary Function | Failure Mode / Fallback |
+|:---|:---|:---|:---|
+| **Geospatial Anti-Fraud** | Geopy / Nominatim | Cross-validates device hardware GPS coordinates against client IP geolocation with 50km tolerance | Bypasses network check if GPS metadata unavailable |
+| **Vision & OCR Triage** | Google Gemini 2.5 Flash | Isolates single vehicle, reads license plate alphanumeric characters, detects violation type | Cascades: `gemini-2.5-flash` → `gemini-2.0-flash` → `gemini-flash-latest` |
+| **Statutory Rule Engine** | Python / SQL Rules | Maps detected offense string to codified Indian Motor Vehicles Act sections and calculates standard fine amounts | Applies baseline general safety fine if specific section unmatched |
+| **AskRakshak Assistant** | LangChain / Multi-LLM | Conversational copilot answering citizen legal inquiries and providing challan contest guidance | Fallback chain: Google Gemini → OpenAI GPT-4o-mini → Mistral AI |
+| **Hotspot Prediction** | Scikit-Learn / Leaflet | Aggregates geographic report clusters to project traffic violation density heatmaps | Returns global regional hotspot coordinates if density under threshold |
+
+---
+
+## Traffic Violation Enforcement Workflow
+
+The complete lifecycle from citizen crowdsourced evidence capture to official fine issuance and penalty settlement:
 
 ```mermaid
 sequenceDiagram
+    autonumber
+    actor Citizen
+    participant Client as Web Portal
+    participant Server as Express Server
+    participant DB as MySQL Database
+    participant AI as LangGraph AI Engine
+    actor Police as Police Officer
 
-actor Citizen
-participant Frontend
-participant Backend
-participant AI
-participant Database
-actor Police
-
-Citizen->>Frontend: Submit violation evidence
-Frontend->>Backend: Upload image/video
-Backend->>AI: Request AI analysis
-AI->>AI: Detect number plate
-AI->>AI: Identify violation
-AI->>AI: Validate traffic rules
-AI-->>Backend: Return analysis result
-Backend->>Database: Save pending report
-Police->>Backend: Review report
-Backend->>Database: Update report status
-Backend-->>Citizen: Notify report status
+    Citizen->>Client: Capture & upload violation evidence
+    Client->>Server: POST /api/reports (image + GPS coordinates)
+    Server->>DB: Store pending report record
+    Server->>AI: POST /api/ai/process-evidence
+    AI->>AI: Anti-Fraud: Validate EXIF GPS vs IP
+    AI->>AI: Vision: OCR plate & classify violation (Gemini)
+    AI->>AI: Legal: Map penalty under Motor Vehicles Act
+    AI-->>Server: Return validation results & draft challan
+    Server->>DB: Update report with AI triage telemetry
+    Police->>Client: Open Adjudication Review Queue
+    Client->>Server: Fetch pending reports with AI confidence
+    Police->>Client: 1-Click Approve / Reject
+    Client->>Server: PUT /api/police/reports/:id/verify
+    Server->>DB: Issue official e-challan & award trust score
+    Server-->>Citizen: Dispatch fine notification & SMS receipt
 ```
 
-<br />
+---
 
-## Core data flow
+## Statutory Penalty Mapping (Motor Vehicles Act)
 
-1. Citizen uploads traffic violation evidence through the portal.
-2. The backend stores the uploaded media and forwards it to the AI service.
-3. The Vision Agent extracts the vehicle registration number and identifies the violation.
-4. The Rule Validation Agent determines the applicable traffic rule and fine.
-5. The processed report is stored in the database with a **Pending Review** status.
-6. A police officer verifies the report through the dashboard.
-7. Once approved, the system generates the challan and updates the violation history.
-8. The citizen receives the report status and reward points for verified submissions.
+The Rule Validation Agent automatically pairs computer vision classifications with statutory provisions under the Indian Motor Vehicles Act:
 
-<br />
+| Violation Category | Statutory Section | Standard Penalty | Demerit Points | Detection Criteria |
+|:---|:---|:---:|:---:|:---|
+| **Driving Without Helmet** | Section 129 / 177 | ₹1,000 | 2 | Rider head bounding box missing certified protective gear |
+| **Red Light Jumping** | Section 119 / 177 | ₹1,000 | 3 | Vehicle crossing stop line while signal lens exhibits active red hue |
+| **Triple Riding (Two-Wheelers)** | Section 128 / 177 | ₹1,000 | 2 | More than two person centroids detected on two-wheeler frame |
+| **Speed Limit Infraction** | Section 112 / 183 | ₹2,000 | 4 | Optical distance / frame delta exceeding corridor speed limit |
+| **One-Way / Wrong-Side Driving** | Section 17(1) / 177 | ₹1,000 | 3 | Direction of vehicle trajectory opposing corridor traffic vector |
+| **Driving Without Seatbelt** | Section 194B | ₹1,000 | 1 | Driver torso diagonal strap absence in cabin crop |
+| **Using Mobile Phone While Driving** | Section 184(c) | ₹5,000 | 4 | Hand-held device positioned adjacent to head / steering perimeter |
 
-<h2 id="multi-agent-ai-engine">🧠 Multi-agent AI engine</h2>
+---
 
-The AI service is designed as a collection of specialized agents. Each agent performs a dedicated task, allowing the system to process reports in a structured manner.
-
-<details>
-<summary><b>See all agents</b></summary>
-
-<br />
-
-- **Vision Agent**
-  - Extracts vehicle registration numbers using OCR.
-  - Identifies traffic violations from uploaded images.
-
-- **Rule Validation Agent**
-  - Maps detected violations to applicable Motor Vehicles Act provisions.
-  - Calculates the corresponding fine.
-
-- **Vehicle Verification Agent**
-  - Validates extracted vehicle information before report generation.
-
-- **Hotspot Prediction Agent**
-  - Analyses historical reports to identify high-risk traffic locations.
-
-- **AskRakshak Assistant**
-  - Answers user queries related to traffic rules, challans, and reporting procedures.
-
-</details>
-
-<br />
-
-<h2 id="local-setup">🚀 Local setup</h2>
+## Install
 
 ### Prerequisites
 
-- Node.js 18 or later
-- Python 3.9 or later
-- MySQL 8.0
+- Python 3.11+
+- Node.js 18+ and npm
+- MySQL Server 8.0+
+- Google Gemini API Key
 
-### Clone repository
-
-```bash
-git clone https://github.com/yuvanvishnupandi/margarakshak.git
-cd margarakshak
-```
-
-### Database
-
-Create a MySQL database named `traffic_violation_db` and import the provided SQL schema from `backend/database_schema.sql`.
-
-<details>
-<summary><b>Backend setup</b></summary>
+### Repository Setup
 
 ```bash
-cd backend
-npm install
-npm start
+# Clone the repository
+$ git clone https://github.com/yuvanvishnupandi/multimodal-traffic-inference.git
+$ cd multimodal-traffic-inference
+
+# 1. AI Microservice Environment
+$ cd ai_service
+$ python -m venv venv
+$ source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+$ pip install -r requirements.txt
+
+# 2. Node.js Backend Gateway
+$ cd ../backend
+$ npm install
+
+# 3. React Frontend Dashboard
+$ cd ../frontend
+$ npm install
 ```
 
-</details>
-
-<details>
-<summary><b>AI service setup</b></summary>
+### Database Initialization
 
 ```bash
-cd ai_service
-pip install -r requirements.txt
-uvicorn main:app --reload --port 8000
+$ mysql -u root -p -e "CREATE DATABASE traffic_violation_db;"
+$ mysql -u root -p traffic_violation_db < backend/database_schema.sql
 ```
 
-</details>
+### Environment Configuration
 
-<details>
-<summary><b>Frontend setup</b></summary>
+Configure `ai_service/.env`:
 
-```bash
-cd frontend
-npm install
-npm run dev
+```env
+GEMINI_API_KEY=your_gemini_api_key
+OPENAI_API_KEY=your_openai_api_key
+MISTRAL_API_KEY=your_mistral_api_key
 ```
 
-</details>
+Configure `backend/.env`:
 
-### Quick start (Windows)
+```env
+PORT=5000
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=your_password
+DB_NAME=traffic_violation_db
+JWT_SECRET=your_jwt_secret_hash
+AI_SERVICE_URL=http://localhost:8000
+```
+
+---
+
+## Usage
+
+### Programmatic Multi-Agent Pipeline
+
+Invoke the LangGraph state machine directly from Python:
+
+```python
+from ai_service.models import EvidencePayload, LocationData
+from ai_service.agents import build_graph
+
+# Compile the multi-agent graph
+graph = build_graph()
+
+# Construct report evidence payload with spatial telemetry
+payload = EvidencePayload(
+    user_id = "citizen_4021",
+    image_url = "https://example.com/incident_evidence.jpg",
+    device_gps = LocationData(lat = 12.9716, lng = 77.5946),
+    ip_address = "106.51.72.10"
+)
+
+# Run end-to-end multi-agent evaluation
+state = graph.invoke({
+    "agent_state": {
+        "payload": payload
+    }
+})
+
+result = state["agent_state"]
+
+print(f"Anti-Fraud Flag:    {result.is_fraud}")
+print(f"Jurisdiction:       {result.jurisdiction_id}")
+print(f"Detected Plate:     {result.vision_validation.extracted_plate}")
+print(f"Violation:          {result.vision_validation.violation_detected}")
+print(f"Vision Confidence:  {result.vision_validation.confidence_score}%")
+print(f"Assessed Penalty:   ₹{result.final_challan.fine_amount}")
+```
+
+### Launching System Services
+
+Run all services simultaneously using the provided Windows script:
 
 ```cmd
 start.bat
 ```
 
-<br />
+Or launch services independently:
 
-<h2 id="environment-variables">Environment variables</h2>
-<details>
-<summary><b>Full reference</b></summary>
+```bash
+# Terminal 1 — AI Microservice (FastAPI)
+$ cd ai_service
+$ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
-<br />
+# Terminal 2 — Application Gateway (Express)
+$ cd backend
+$ npm start
 
-> Template based on the services in use — confirm exact variable names against your `.env.example` files before deploying.
+# Terminal 3 — Interactive Client (Vite)
+$ cd frontend
+$ npm run dev
+```
 
-| Variable | Description | Where |
-|----------|-------------|-------|
-| `PORT` | Backend API port | `backend/.env` |
-| `DB_HOST` / `DB_USER` / `DB_PASSWORD` / `DB_NAME` | MySQL connection details for `traffic_violation_db` | `backend/.env` |
-| `JWT_SECRET` | Signing secret for citizen/officer session tokens | `backend/.env` |
-| `GEMINI_API_KEY` | Google Gemini key for the Vision Agent and violation detection | `ai_service/.env` |
-| `MISTRAL_API_KEY` | Mistral AI key, used alongside Gemini in the AI pipeline | `ai_service/.env` |
-|`OPENAI_API_KEY` | OpenAI API key powering the AskRakshak chat assistant | `ai_service/.env` |
-| `AI_SERVICE_URL` | URL the backend uses to reach the AI microservice (e.g. `http://localhost:8000`) | `backend/.env` |
-| `VITE_API_URL` | Base URL the frontend uses to call the backend API | `frontend/.env` |
+### API Ingestion Endpoints
 
-</details>
+#### 1. Submit Evidence for Autonomous Multi-Agent Triage
 
-<br />
+```bash
+$ curl -X POST "http://localhost:8000/api/ai/process-evidence" \
+    -H "Content-Type: application/json" \
+    -d '{
+        "user_id": "citizen_4021",
+        "image_url": "https://example.com/evidence.jpg",
+        "device_gps": {"lat": 12.9716, "lng": 77.5946},
+        "ip_address": "106.51.72.10"
+    }'
+```
 
-## Data & storage
+```json
+{
+  "status": "success",
+  "is_fraud": false,
+  "fraud_reason": null,
+  "vision_validation": {
+    "is_valid_submission": true,
+    "license_plate_found": true,
+    "extracted_plate": "TN01AB1234",
+    "violation_detected": "Driving without a Helmet",
+    "confidence_score": 96,
+    "auto_approve": true
+  },
+  "challan": {
+    "challan_id": "CH-928174",
+    "plate_number": "TN01AB1234",
+    "violation_type": "Driving without a Helmet",
+    "fine_amount": 1000.0,
+    "currency": "INR",
+    "jurisdiction_id": "JURISDICTION_BANGALORE_URBAN",
+    "status": "ISSUED"
+  },
+  "jurisdiction_id": "JURISDICTION_BANGALORE_URBAN"
+}
+```
 
-- **Database** — MySQL 8.0, schema in `backend/database_schema.sql`
-- **Uploads** — violation evidence (photos/videos) handled by the backend at upload time
-- **AI service** — stateless FastAPI microservice; no persistent storage of its own
-- **Hosting** — frontend on Vercel, backend on Render
+#### 2. AskRakshak Legal Copilot Query
 
-<br />
+```bash
+$ curl -X POST "http://localhost:8000/api/ai/chat" \
+    -H "Content-Type: application/json" \
+    -d '{
+        "message": "I received a red light challan at 10:14 AM on Anna Salai but my vehicle was parked.",
+        "mode": "citizen",
+        "current_path": "/dispute"
+    }'
+```
 
-## License
+#### 3. Spatial Hazard & Hotspot Density Extraction
 
-Marga Rakshak is [MIT licensed](LICENSE).
-
+```bash
+$ curl -X GET "http://localhost:8000/api/ai/heatmap"
+```
 
 ---
 
+## Citations
 
+```bibtex
+@article{team2023gemini,
+    title   = {Gemini: A Family of Highly Capable Multimodal Models},
+    author  = {Gemini Team and Google},
+    journal = {arXiv preprint arXiv:2312.11805},
+    year    = {2023}
+}
+```
+
+```bibtex
+@misc{langgraph2024,
+    title   = {LangGraph: Building Stateful Multi-Agent Applications with LLMs},
+    author  = {LangChain Team},
+    year    = {2024},
+    url     = {https://github.com/langchain-ai/langgraph}
+}
+```
+
+```bibtex
+@article{dosovitskiy2020image,
+    title   = {An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale},
+    author  = {Alexey Dosovitskiy and Lucas Beyer and Alexander Kolesnikov and Dirk Weissenborn and Xiaohua Zhai and Thomas Unterthiner and Mostafa Dehghani and Matthias Minderer and Georg Heigold and Sylvain Gelly and Jakob Uszkoreit and Neil Houlsby},
+    journal = {Proceedings of the International Conference on Learning Representations (ICLR)},
+    year    = {2021}
+}
+```
+
+---
+
+## License
+
+[MIT](LICENSE)
+
+*“The aim of argument, or of discussion, should not be victory, but progress.”* — Joseph Joubert
