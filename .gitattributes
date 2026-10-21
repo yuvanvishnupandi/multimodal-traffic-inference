@@ -1,0 +1,5 @@
+﻿# Language statistics override
+node_modules/** linguist-vendored
+frontend/** linguist-vendored
+backend/routes/** linguist-vendored
+backend/seed_rules.js linguist-vendored
