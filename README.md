@@ -381,4 +381,3 @@ $ curl -X GET "http://localhost:8000/api/ai/heatmap"
 
 [MIT](LICENSE)
 
-*“The aim of argument, or of discussion, should not be victory, but progress.”* — Joseph Joubert
